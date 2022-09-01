@@ -1,0 +1,164 @@
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Ruda', sans-serif; */
+
+.header{
+    background-color: hsl(0, 0%, 5%);
+}
+
+.header p{
+    color: white;
+    font-size: clamp(1em,5vw,1.8em);
+    font-family: 'Ruda', sans-serif;
+}
+
+.newproduct{
+    opacity: 0.5;
+    letter-spacing: 5px;
+    font-family: 'Ruda', sans-serif;
+}
+
+.header h1{
+    color: white;
+    font-size: clamp(2em,5vw,5em);
+    font-family: 'Cabin', sans-serif;
+}
+
+.cta{
+    background-color: rgba(216,124,73,255);
+    padding: 1em 2em;
+    color: white;
+}
+
+.cta:hover{
+    background-color: rgb(255, 205, 113);
+}
+
+.logo{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.nav-link{
+    font-family: 'Ruda', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.468);
+}
+
+.navbar-toggler{
+    color: white;
+    border: 2px solid white;
+}
+
+.navbar-toggler-icon{
+    background-image: url(./assets/images/list.svg);
+}
+
+
+.products{
+    margin-block: 5em;
+}
+
+.products p{
+    font-family: 'Ruda', sans-serif;
+}
+
+.products a{
+    text-decoration: none;
+    color: rgba(216,124,73,255);
+}
+
+.products-items{
+    background-color: rgb(247, 247, 247);
+}
+
+.speakers-offer{
+    background-color: rgba(216,124,73,255);
+}
+
+.speakers2-offer{
+    background-color: rgb(218, 218, 218);
+}
+
+.speakers-name{
+    font-size: clamp(2em,5vw,5em);
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+.speakers2-name{
+    font-size: clamp(2em,5vw,5em);
+    color: black;
+    font-family: 'Cabin', sans-serif;
+}
+
+.speakers-disc{
+    color: white;
+    font-family: 'Ruda', sans-serif;
+    font-size: clamp(1em,3vw,1.5em);
+}
+
+.cta-alt{
+    border: none;
+    padding: 1em 2em;
+    background-color: black;
+    color: white;
+}
+
+.cta-alt:hover{
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+.cta-alt2{
+    border: 2px solid black;
+    padding: 1em 2em;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.cta-alt2:hover{
+    background-color: rgba(239, 239, 239, 0.801);
+}
+
+.letter{
+    margin-block: 10em;
+}
+
+.message{
+    height: 75vh;
+}
+
+.message span{
+    color: rgba(216,124,73,255);
+}
+
+.message h2{
+    font-size: clamp(2em,4vw,4em);
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+}
+
+.message p{
+    font-size: clamp(1em,4vw,1.1em);
+    font-family: 'Ruda', sans-serif;
+
+}
+
+.music-model{
+    background-image: url(./assets/images/manmusic.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: hsl(0, 0%, 5%);
+}
